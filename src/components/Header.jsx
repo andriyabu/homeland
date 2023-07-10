@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { Logo } from "../assets/img";
 const Header = () => {
   return (
-    <header className="py-6 mb-12 border-b-[2px]">
+    <header className="py-6 mb-12 border-b-[2px] shadow-1 sticky top-0 bg-white">
       <div className="container flex items-center justify-between mx-auto">
         {/* logo */}
         <Link to="/">
